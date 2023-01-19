@@ -19,7 +19,7 @@ jobs:
       - run: npm init
       - run: npm install
       - run: npm ci
-      - run: npm run build
+      - run: npm run test
 
   publish-gpr:
     needs: build
